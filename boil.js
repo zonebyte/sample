@@ -17,6 +17,8 @@ function hop(){
 		username.disabled= true;
 		school.disabled= true;
 		uni.disabled= true;
+		sendInvoice.id = 'after';
+		sendInvoice.disabled= false;
 		next.style.display="none";
 			edit.addEventListener('click', function(){
 			editText();
