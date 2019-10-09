@@ -1,0 +1,50 @@
+* {
+	background-color: #16a085;
+	font-weight: bolder;
+}
+
+#done, #save {
+	margin-left: 20px;
+}
+
+form {
+	margin-left: 50%;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+input {
+	margin-bottom: 20px;
+	padding: 5px;
+	background: white;
+	border: none;
+}
+
+ #done, #new, #next{
+	background-color:  #34495e;
+	color: white;
+	cursor: pointer;
+}
+
+#save {
+	background: #CCC;
+	cursor: not-allowed;
+}
+
+#text {
+	display: none;
+}
+
+#after {
+	background-color: #34495e;
+	color: white;
+	cursor: pointer;
+}
+
+#not {
+	cursor: not-allowed;
+}
+
+#plus {
+	cursor: text;
+}
